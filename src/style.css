@@ -1,7 +1,58 @@
-h1 {
+body {
   font-family: "poppins", sans-serif;
-  font-style: normal;
+  background-color: antiquewhite;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bologna-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 260px;
+  padding-bottom: 260px;
+}
+header h1 {
   font-weight: 700;
   font-size: 96px;
-  line-height: 144px;
+  line-height: 1.5;
+  margin: 0;
+}
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+}
+header a {
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 14px;
+  color: #272044;
+  background-color: antiquewhite;
+  padding: 16px 32px;
+  gap: 10px;
+  display: inline-block;
+  margin-top: 30px;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    line-height: 1;
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header a {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
 }
