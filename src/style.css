@@ -115,7 +115,14 @@ section.secondary {
 }
 .card img {
   width: 100%;
-  aspect-ratio: 3/2;
+  aspect-ratio: 1/1;
+}
+.card-header.grid {
+  grid-gap: 0;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 .card-body {
   padding: 32px;
@@ -202,5 +209,11 @@ footer h4 {
   }
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
