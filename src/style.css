@@ -33,7 +33,7 @@ header a {
   line-height: 1.5;
   font-weight: 700;
   font-size: 14px;
-  color: #272044;
+  color: #5e3a0c;
   background-color: antiquewhite;
   padding: 16px 32px;
   gap: 10px;
@@ -160,7 +160,7 @@ footer p {
   color: antiquewhite;
   font-weight: 400px;
   font-size: 16px;
-  opacity: 60%;
+  opacity: 70%;
   line-height: 1.5;
 }
 footer h4 {
