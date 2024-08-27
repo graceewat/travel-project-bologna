@@ -40,7 +40,56 @@ header a {
   display: inline-block;
   margin-top: 30px;
 }
-@media (max-width: 900px) {
+.footer-container {
+  margin: 0 auto;
+}
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: antiquewhite;
+  padding: 100px 0;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  padding: 0;
+}
+footer a {
+  padding-top: 16px;
+  text-decoration: none;
+  color: antiquewhite;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 2;
+  opacity: 70%;
+}
+footer p {
+  color: antiquewhite;
+  font-weight: 400px;
+  font-size: 16px;
+  opacity: 60%;
+  line-height: 1.5;
+}
+footer h4 {
+  color: antiquewhite;
+  font-weight: 700px;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
